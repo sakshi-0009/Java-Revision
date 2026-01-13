@@ -18,5 +18,6 @@ public class FibonacciSeries {
 			b = sum;
 			count++;
 		}
+		sc.close();
 	}
 }
