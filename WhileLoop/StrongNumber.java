@@ -28,5 +28,6 @@ public class StrongNumber {
 		}else {
 			System.out.println(temp+" is not a strong number");
 		}
+		sc.close();
 	}
 }
