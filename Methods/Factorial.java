@@ -21,5 +21,7 @@ public class Factorial {
 		
 		int num = sc.nextInt();
 		System.out.println("Factorial of "+num+" is "+factorial(num));
+		
+		sc.close();
 	}
 }
