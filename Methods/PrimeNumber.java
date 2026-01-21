@@ -18,6 +18,7 @@ public class PrimeNumber {
 	}
 	
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter number: ");
@@ -28,6 +29,6 @@ public class PrimeNumber {
 		}else {
 			System.out.println(num+" is not a prime number");
 		}
-				
+		sc.close();
 	}
 }
