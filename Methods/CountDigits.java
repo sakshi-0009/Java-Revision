@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CountDigits {
 	
-	static int CountDigits(int num, int count) {
+	static int countDigits(int num, int count) {
 		
 		while(num!=0) {
 			count++;
@@ -21,9 +21,9 @@ public class CountDigits {
 		int num = sc.nextInt();		
 		int count = 0;
 		
-		count = CountDigits(num,count);
+		count = countDigits(num,count);
 
 		System.out.println("Total digits: "+count);
-		
+		sc.close();
 	}
 }
