@@ -4,8 +4,13 @@ import java.util.Scanner;
 
 public class CountDigits {
 	
-	static int countDigits(int num, int count) {
+	static int countDigits(int num) {
 		
+		if(num==0) {
+			return 1;
+		}
+		
+		int count = 0;
 		while(num!=0) {
 			count++;
 			num = num/10;
@@ -19,9 +24,8 @@ public class CountDigits {
 		System.out.println("Enter number to count the digits: ");
 		
 		int num = sc.nextInt();		
-		int count = 0;
 		
-		count = countDigits(num,count);
+		int count = countDigits(num);
 
 		System.out.println("Total digits: "+count);
 		sc.close();
