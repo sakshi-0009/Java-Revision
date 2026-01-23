@@ -24,5 +24,6 @@ public class ReverseNumber {
 		int rev = reverseNumber(num);
 				
 		System.out.println("Reversed number is: "+rev);
+		sc.
 	}
 }
