@@ -12,7 +12,7 @@ public class MinAndMax {
 		int n = sc.nextInt();
 		int arr[] = new int[n];
 		
-		System.out.print("Enter array elements: ");
+		System.out.println("Enter array elements: ");
 		for(int i=0; i<n; i++) {
 			arr[i] = sc.nextInt();
 		}
