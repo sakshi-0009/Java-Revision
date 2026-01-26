@@ -18,11 +18,11 @@ public class SumOfElements {
 		
 		int sum=0;
 		
-		for(int i=0;i<arr.length;i++) {
+		for(int i=0; i<arr.length; i++) {
 			sum=sum+arr[i];
 		}
 		
-		System.out.println("The sum of the elements in the array: "+sum);
+		System.out.println("The sum of the elements in an array: "+sum);
 		sc.close();
     }
 }
