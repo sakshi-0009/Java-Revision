@@ -15,10 +15,13 @@ public class SumOfElements {
 		for(int i=0; i<n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		
 		int sum=0;
+		
 		for(int i=0;i<arr.length;i++) {
 			sum=sum+arr[i];
 		}
+		
 		System.out.println("The sum of the elements in the array: "+sum);
 		sc.close();
     }
