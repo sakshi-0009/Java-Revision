@@ -17,9 +17,9 @@ public class PalindromeString {
 		}
 		
 		if(str.equals(rev)) {
-			System.out.println("Palindrome String!");
+			System.out.println(rev+" is a palindrome string!");
 		}else {
-			System.out.println("Not a palindrome string");
+			System.out.println(rev+" is not a palindrome string!");
 		}
 		sc.close();
 	}
