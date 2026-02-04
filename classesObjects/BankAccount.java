@@ -12,7 +12,7 @@ public class BankAccount {
 	void display() {
 		System.out.println("Account number: "+accountNo);
 		System.out.println("Account holder name: "+name);
-		System.out.println("Balance: "+balance);
+		System.out.println("Account balance: "+balance);
 	}
 	
 	public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class BankAccount {
 		BankAccount acc = new BankAccount();
 		acc.accountNo = 101;
 		acc.name = "Sakshi";
-		acc.balance = 101000;
+		acc.balance = 100000;
 		
 		acc.display();	
 	}
