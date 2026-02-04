@@ -21,7 +21,7 @@ public class EmployeeDetails {
 		System.out.println(emp.Emp_Name);
 		
 		System.out.print("Employee Id: ");
-		System.out.println(emp.Emp_Id);
+		System.out.println(EmployeeDetails.Emp_Id);
 				
 		System.out.print("Employee Salary: ");
 		emp.Salary();
