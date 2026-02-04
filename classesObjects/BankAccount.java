@@ -20,7 +20,7 @@ public class BankAccount {
 		BankAccount acc = new BankAccount();
 		acc.accountNo = 101;
 		acc.name = "Sakshi";
-		acc.balance = 100000;
+		acc.balance = 1000000;
 		
 		acc.display();	
 	}
