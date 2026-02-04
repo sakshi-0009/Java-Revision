@@ -1,4 +1,4 @@
-package classesObjects;
+package ClassesObjects;
 
 public class BankAccount {
 
