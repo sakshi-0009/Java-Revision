@@ -9,6 +9,7 @@ public class BankAccount {
 	BankAccount(){
 		System.out.println("Account details: ");
 	}
+	
 	void display() {
 		System.out.println("Account number: "+accountNo);
 		System.out.println("Account holder name: "+name);
