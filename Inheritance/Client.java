@@ -25,7 +25,7 @@ class Client {
 		SupremeCourt obj = new SupremeCourt();
 		HighCourt obj1 = new HighCourt();
 		
-		obj.Court();
+//		obj.Court();
 		obj1.Court();
 	}
 }
