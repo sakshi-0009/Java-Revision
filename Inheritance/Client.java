@@ -18,6 +18,10 @@ class HighCourt extends SupremeCourt{
 		System.out.println(this);
 		System.out.println("In High Court constructor");
 	}
+	void Court(){
+		System.out.println("High Court of India");
+	}
+	
 }
 class Client {
 
@@ -27,5 +31,6 @@ class Client {
 		
 //		obj.Court();
 		obj1.Court();
+		
 	}
 }
