@@ -31,5 +31,6 @@ class Client1 {
 		
 		obj.BCCIDemo();
 		obj1.IPLDemo();
+		obj2.BCCIDemo();
 	}
 }
