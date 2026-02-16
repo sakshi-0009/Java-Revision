@@ -25,12 +25,13 @@ class IPL extends BCCI {
 class Client1 {
 	
 	public static void main(String[] args) {
+		
 		BCCI obj = new BCCI();
-		IPL obj1 = new IPL();
-		BCCI obj2 = new IPL();
+//		IPL obj1 = new IPL();
+//		BCCI obj2 = new IPL();
 		
 		obj.BCCIDemo();
-		obj1.IPLDemo();
-		obj2.BCCIDemo();
+//		obj1.IPLDemo();
+//		obj2.BCCIDemo();
 	}
 }
