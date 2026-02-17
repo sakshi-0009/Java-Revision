@@ -1,7 +1,6 @@
 package Inheritance;
 
 class Employee{
-	
 	int salary = 30000;
 	
 	void work() {
@@ -10,7 +9,6 @@ class Employee{
 }
 
 class Manager extends Employee{
-	
 	int bonus = 10000;
 	
 	void manage() {
@@ -23,8 +21,12 @@ class Client2 {
 	public static void main(String[] args) {
 		
 		Manager m = new Manager();
+		Employee emp = new Employee();
+		
 		System.out.println("Total Salary: "+(m.salary+m.bonus));
 		
+		emp.work();
+	
 		m.work();
 		m.manage();
 	}
