@@ -19,7 +19,6 @@ class Manager extends Employee{
 class Client2 {
 
 	public static void main(String[] args) {
-		
 		Manager m = new Manager();
 		Employee emp = new Employee();
 		
