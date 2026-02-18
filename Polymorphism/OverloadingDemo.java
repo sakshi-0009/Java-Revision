@@ -13,8 +13,14 @@ public class OverloadingDemo {
 	}
 	
 	public static void main(String[] args) {
+		
 		OverloadingDemo obj = new OverloadingDemo();
 		obj.fun(10);
 		obj.fun(15.8f);
+		obj.fun(obj);
+		
+		OverloadingDemo obj1 = new OverloadingDemo();
+		obj1.fun(obj);
+		obj1.fun(obj1);
 	}
 }
