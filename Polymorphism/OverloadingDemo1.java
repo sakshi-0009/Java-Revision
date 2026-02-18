@@ -17,5 +17,7 @@ class OverloadingDemo1{
 		
 		obj.fun(10, 10.5f);
 		obj.fun(20.5f, 20);
+//		obj.fun(10, 10);		Error: The method fun(int, float) is ambiguous for the type Demo1
+
 	}
 }
