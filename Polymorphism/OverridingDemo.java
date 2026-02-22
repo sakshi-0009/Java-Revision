@@ -7,6 +7,7 @@ class Parent{
 	}
 	void fun(int x) {
 		System.out.println("In parent fun method");
+		System.out.println(x);
 	}
 }
 
