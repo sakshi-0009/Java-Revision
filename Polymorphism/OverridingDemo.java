@@ -26,5 +26,8 @@ class OverridingDemo {
 		
 		Parent obj = new Child();
 		obj.fun(10);
+		
+		Child obj1 = new Child();
+		obj1.fun();
 	}
 }
